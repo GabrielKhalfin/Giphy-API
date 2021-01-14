@@ -1,20 +1,13 @@
-html{
-  font-size: 100%;
-  box-sizing: border-box;
-
-}
 
 *, *::before, *::after{
   box-sizing: inherit;
 }
 
 body{
-  font-family: 'Open Sans', sans-serif;
-  line-height: 1.3;
-  margin: 0;
-  padding: 0;
-  background-color: black;
-  color: #ffffff;
+  background-image: linear-gradient(80deg, teal 0%, orange  150%);
+  color: turquoise;
+  font-family: cursive;
+  min-height: 100vh;
 }
 
 
@@ -23,26 +16,16 @@ body{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
-input{
-  font-size: 1rem;
-  font-size: max(16px, 1em);
-  font-family: inherit;
-  padding: 0.25em 0.5em;
-  background-color: #fff;
-  border: 2px solid var(--input-border);
-  border-radius: 4px;
-  margin: 0.3125rem;
-  
-}
+
 
 .gifContainer{
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  margin: 50px 50px;
+  margin: 30px 30px;
 
 }
 
@@ -53,8 +36,7 @@ button{
   padding: 0.25em 0.5em;
   color: #fff;
   font-weight: bolder;
-  background: rgb(255,0,0);
-  background: linear-gradient(79deg, rgba(255,0,0,1) 0%, rgba(178,219,6,1) 17%, rgba(196,207,11,1) 35%, rgba(65,196,16,1) 48%, rgba(67,120,146,1) 63%, rgba(29,50,165,1) 79%, rgba(95,37,146,1) 100%);
+  background: linear-gradient(79deg, teal 20%, springgreen 85%);
   border: 2px solid var(--input-border);
   border-radius: 4px;
   margin-top: 1rem;
@@ -78,10 +60,20 @@ button{
 }
 
 .logo{
-  height: 20%;
-  width: 20%;
+  height: 50%;
+  width: 50%;
+  inline-size: 200px;
 }
 
 a{
   text-align: center;
+
 }
+
+h1{
+  font-size: 3rem;
+  margin-bottom: 0px;
+  color: turquoise;
+  font-family: serif;
+}
+

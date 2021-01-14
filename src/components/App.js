@@ -91,10 +91,10 @@ class App extends React.Component {
       <div className="App">
         <div className="container">
             <a href="/">
-            <img src="giphy.png" alt="giphy logo" className="logo"/>
+            <img src="https://cdn.discordapp.com/attachments/795434246109659138/799356325821677578/5842a962a6515b1e0ad75b04.png" alt="giphy logo" className="logo"/>
             </a>
-            <h1>Giphy Search</h1>
-            <p>Find your favorite GIFs!</p>
+              <h1>Giphy Search</h1>
+            <p>Please Enter Your Favorite Gif</p>
             <SearchField searchGifs={this.searchGifs}/>
             <button onClick={()=>this.searchGifs("", 1)}>Random</button>
             <div className="gifContainer">
