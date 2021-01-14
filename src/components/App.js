@@ -50,12 +50,12 @@ class App extends React.Component {
     }
   }
 
+  
   componentDidMount(){
     this.searchGifs();
   }
   
   //API Key: 0QegizgIHwqHH4870fIotwRSzqYpbmLw
-   
 
 
 

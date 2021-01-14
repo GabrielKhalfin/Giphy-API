@@ -2,13 +2,11 @@ import React, { Component } from 'react'
 import GifCard from './GifCard';
 import NoGifs from './NoGifs'
 
-
 class GifContainer extends Component {
 
     showGifs = () =>{
         let result = this.props.gifs;
         let gif
-
         if(this.props.rand !== ""){
              gif = <GifCard url={this.props.rand} key={1}/>
             return gif;

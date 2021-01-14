@@ -2,7 +2,6 @@ import React from 'react';
 
 class SearchField extends React.Component {
 
-
 /*
 search bar
 user input search bar
@@ -10,8 +9,6 @@ button for search bar
 check user input
 check if user inputted
 */
-
-
     state = {
         search: "",
         isEmpty: true

@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 
 class GifCard extends Component {
-
     render() {
         return (
             <div>
@@ -10,5 +9,4 @@ class GifCard extends Component {
         )  
     }
 }
-
 export default GifCard;
